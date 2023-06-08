@@ -87,7 +87,7 @@ function EventModal({
                 <EventDiv>
                     {previousEvents.length > 0 && (
                         <div>
-                            <h3>Previous Events:</h3>
+                            <h3>Events:</h3>
                             {previousEvents.map((event) => (
 
                                 <EventList key={event.id}>
