@@ -85,7 +85,7 @@ function EventModal({
                 </EventForm>
 
                 <EventDiv>
-                    {previousEvents.length > 0 && (
+                    {!!previousEvents.length && (
                         <div>
                             <h3>Events:</h3>
                             {previousEvents.map((event) => (
